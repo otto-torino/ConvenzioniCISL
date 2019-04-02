@@ -24,7 +24,9 @@
     "git-hook": "npm run lint -s && npm run test -s"
   },
   "rnpm": {
-    "assets": ["./assets/fonts"]
+    "assets": [
+      "./assets/fonts"
+    ]
   },
   "dependencies": {
     "apisauce": "^0.14.0",
