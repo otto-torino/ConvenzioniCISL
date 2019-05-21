@@ -53,6 +53,7 @@
 		621CB4BB8C074052AF3F81B3 /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 820D7546115E423D870D6D9C /* libReactNativeConfig.a */; };
 		66CEF78DE5FF4D8D8FE8896B /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16583A9601CF4C9F95038F23 /* Roboto-ThinItalic.ttf */; };
 		6AB48FA5391741039FBEC08F /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C437C950F3A41FF86C02F0E /* AntDesign.ttf */; };
+		800F90E8225CED0A009F17E8 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = 1871A65D84164EC2B0C1676E /* YTPlayerView-iframe-player.html */; };
 		80A772283E324FEDBCE2D399 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5500412EB9AF473AB8F424E5 /* Ionicons.ttf */; };
 		80C3D80C2253823A00A313C4 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80C3D7D32253823A00A313C4 /* Octicons.ttf */; };
 		80C3D80D2253823A00A313C4 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80C3D7D42253823A00A313C4 /* Feather.ttf */; };
@@ -1405,6 +1406,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				800F90E8225CED0A009F17E8 /* YTPlayerView-iframe-player.html in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				C4876DF3F5B14159B757E4F5 /* Roboto-Black.ttf in Resources */,
@@ -1482,7 +1484,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1665,7 +1667,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = it.convenzionicisl;
 				PRODUCT_NAME = ConvenzioniCISL;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -1696,7 +1698,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = it.convenzionicisl;
 				PRODUCT_NAME = ConvenzioniCISL;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;

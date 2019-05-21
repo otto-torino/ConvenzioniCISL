@@ -17,17 +17,36 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>5</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
-	<dict/>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Unused, but a third party library requires such permission</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Unused, but a third party library requires such permission</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Unused, but a third party library requires such permission</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This will allow us to provide you directions to interest points</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string>This will allow us to provide you directions to interest points</string>
+	<key>NSMotionUsageDescription</key>
+	<string>Unused, but a third party library requires such permission</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Unused, but a third party library requires such permission</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Roboto-Black.ttf</string>
@@ -64,6 +83,10 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
+	<key>UIStatusBarHidden</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

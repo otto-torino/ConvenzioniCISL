@@ -1,6 +1,11 @@
 #  ConvenzioniCISL
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/)
 
+Be aware:
+
+react-navigation must be 1.0.0-beta.19
+react-native-material-ui must be 1.14.0
+
 * Standard compliant React Native App Utilizing [Ignite](https://github.com/infinitered/ignite)
 
 ## :arrow_up: How to Setup
